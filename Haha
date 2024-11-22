@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--trocar linguage-->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel ="stylesheet" href ="style.css">
+        <!--chamada do CSS-->
+        <title>Document</title>
+    
+    </head>
+    <body>
+        <div class ="topo"> <!--vlasse serve para criar um código que
+        referencia aquele elemento-->
+        One Piece
+        <div> <!--esa tag separa o código em blocos-->
+        <span>
+        <a href ="#Sinopse">Sinopse</a>
+        <!--Tag "A" cria um vínculo, como se fosse uma
+        ncora-->
+        <a href ="#Disponibilidade">Disponibilidade</a>
+        <!--Tag "href" referencia e de fato chama aquele
+        arquivo, ou Doc, ou qualquer coisa que eu quiser-->
+        </span> <!--serve para destacar o que eu quiser-->
+        </div>
+        
+    
+        </div>
+        <img class="img-capa" src="imagem1.jpg" all="capa de Gente Grande 2">
+    
+    </body>
+</html>
+        
+    <div id="Sinopse" class="seção">
+        <h2>Sinopse</h2>
+        <p> Monkey D Luffy é um jovem que sonha em se tornar o Rei dos Piratas
+            e conquistar os mares. Para isso, ele precisa encontrar o One Piece,
+            o maior tesouro encondido pelo lendário Gold Roger.
+        </p>
+        <div id="Disponibilidade" class="seção">
+            <h2> Disponibilidade </h2> <img class="imagemlogo"
+            src="imagem2.jpg" alt="Logo">
+            <p>
+                Galera
+            </p> <!--Tem a mesma função do class a diferença é o Backenf-->
+            <div class="seção">
+                <p>
+                    Confira agora algumas imagens da série:
+                    <div class="galeria">
+                        <img class="Imagem-sombra" src="imagem3.jpeg">
+                        <img class="Imagem-sombra" src="imagem4.jpeg">
+                        <img class="Imagem-sombra" src="imagem5.jpeg">
+                        <img class="Imagem-sombra" src="imagem6.webp">
+                        <img class="Imagem-sombra" src="imagem7.webp">
+                        <img class="Imagem-sombra" src="imagem8.webp">
+                        <div class="Informação">
+                           
+                        </div>
+                       
+                    </div>
+
+                </p>
+
+                <p>
+                    Assista em<a href="https://www.anroll.net/a/RS3E2nm8um"> Animesroll
+                        </a>  </p>
+                    </a>
+                </p>
+            </div>
+
+            </h2>
+        </div>
+    </div>
+    <div class="rodapé"> Thiago Produções </div>
